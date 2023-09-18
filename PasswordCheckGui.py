@@ -37,10 +37,12 @@ def main(password):
 		print(f"{password} was not found! Carry on!")
 	return 'done!'
 
-def get_passwords_list():
-	with open("passwords.txt", "r") as password_file:
-		password_list = password_file.readlines()
-		return password_list
+# for checking password from file:
+
+# def get_passwords_list():
+# 	with open("passwords.txt", "r") as password_file:
+# 		password_list = password_file.readlines()
+# 		return password_list
 
 
 
