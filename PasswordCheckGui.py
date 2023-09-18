@@ -55,17 +55,17 @@ root = Tk()
 root.title("Password Checker")
 root.geometry("1000x500") #sets width and height of root window
 
-# Create a label and entry field for the password
+# label and entry field for the password
 password_label = ttk.Label(root, text="Enter Password:", font=('Arial', 18))
 password_label.pack()
 password_entry = ttk.Entry(root, show="*", font=('Arial', 18))
 password_entry.pack()
 
-# Create a button to save the password
+# button to check the password
 check_button = ttk.Button(root, text="Check Password", command=check_password, width=20)
 check_button.pack(pady=10)
 
-# Create a label to display the information about the password
+# label to display the information about the password
 display_label = ttk.Label(root, text="This application checks your password", font=('Arial', 16))
 display_label.pack()
 
